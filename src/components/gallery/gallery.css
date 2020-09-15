@@ -1,0 +1,15 @@
+.gallery h2{
+    text-align: center;
+}
+.gallery-items{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+@media screen and (max-width: 1024px){
+    .gallery-items{
+        display: block;
+    }
+    
+    
+}

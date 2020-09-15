@@ -1,0 +1,53 @@
+.blog-item{
+    display: flex;
+    flex-direction: column;
+}
+.blog-image{
+    border: 1px solid black;
+    width: 100%;
+    height: 322px;
+    background-size: cover;
+    background-position: center;
+}
+.blog-description{
+    width: 100%;
+    height: 322px;
+    text-align: center;
+    color: #000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+.blog-description h3{
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+.blog-description p{
+    padding: 10px;
+    letter-spacing: 0.2rem;
+}
+button{
+    width: 172px;
+    height: 41px;
+    background-color: #fecb16;
+    border: 1px solid #fecb16;
+    color: #000;
+}
+@media screen and (max-width: 1024px){
+    .blog-image{
+        width: 93%;
+        padding: 10px;
+        height: 420px;
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .blog-description{
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    
+    
+}

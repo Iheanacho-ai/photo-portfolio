@@ -1,0 +1,16 @@
+.blog h2{
+    text-align: center;
+}
+.blog-items{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+@media screen and (max-width: 1024px){
+    .blog-items{
+        width: 80%;
+        display: block;
+    }
+    
+    
+}

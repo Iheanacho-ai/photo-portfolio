@@ -1,0 +1,38 @@
+
+.portfolio-title{
+    text-align: center;
+    font-family: 'Montesarat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.2rem;
+}
+.portfolio-pics{
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .portfolio-pics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    
+    
+}
+@media screen and (max-width: 700px){
+    .portfolio-pics{
+        margin: 0 auto;
+        display: block;
+    }
+    
+    
+}

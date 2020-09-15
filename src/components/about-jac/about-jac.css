@@ -1,0 +1,63 @@
+.about-jac{
+    padding-top: 95px;
+    width: 60vw;
+    height: 502px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.about-jac-pic{
+    width: 395.78px;
+    height: 502px;
+    background-image: url('../../assets/jomgu6FsAiU (2).png');
+    background-position: center;
+    background-size: cover;
+}
+.about-jac-story{
+    text-align: center;
+    width: calc(60vw - 395.78px);
+    height: 100%;
+}
+@media screen and (max-width: 1024px){
+    .about-jac-pic{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .about-jac-story{
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+}
+@media screen and (max-width: 700px){
+    .about-jac-pic{
+        width: 395.78pxpx;
+    }
+    .about-jac-story{
+        text-align: center;
+        width: 100%;
+        height: 502px;
+    }
+    
+    
+    
+}
+.about-jac-story p{
+    margin-left: 20px;
+    line-height: 25px;
+    font-family: 'Open-sans';
+    font-size: 18px;
+    color: #000;
+    font-weight: 600
+}
+.about-jac-story h2{
+    line-height: 37px;
+    font-family: 'Montesarat';
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+
+}

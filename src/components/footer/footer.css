@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #000;
+}
+.socials{
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.footer h3{
+    text-align: center;
+    color: #fecb16;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+.socials div{
+    margin:0 5px;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.jac-footer{
+    margin: 0 auto;
+    width: 211px;
+    height: 75px;
+    background-size: cover;
+    margin-top:20px;
+    background-position: center;
+}
+
+.instagram{
+    background-image: url('../../assets/Vector (3).png')
+}
+.twitter{
+    background-image: url('../../assets/Vector (4).png')
+}
+.facebook{
+    background-image: url('../../assets/Vector (5).png')
+}
+.jac-footer{
+    background-image: url('../../assets/Vector (1).png')
+    
+}

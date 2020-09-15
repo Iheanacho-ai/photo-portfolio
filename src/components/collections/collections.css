@@ -1,0 +1,38 @@
+.collections{
+    /* margin-top: 1px; */
+    /* border: 1px solid red; */
+}
+.collections-div{
+    padding-top: 50px;
+    display: flex;
+    margin: 0 auto;
+    width: 60vw;
+}
+.collection-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1024px){
+    .collections{
+        padding-top: 350px;
+    }
+    
+    .collections-div{
+       width: 70vw;
+       display: block;
+    }
+    
+    
+}
+
+@media screen and (max-width: 700px){
+    .collections{
+        padding-top: 1000px;
+    }
+    .collections-div{
+        width: 50vw;
+        display: block;
+     }
+    
+    
+}
