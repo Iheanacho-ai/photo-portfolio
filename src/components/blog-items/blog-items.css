@@ -3,7 +3,6 @@
     flex-direction: column;
 }
 .blog-image{
-    border: 1px solid black;
     width: 100%;
     height: 322px;
     background-size: cover;

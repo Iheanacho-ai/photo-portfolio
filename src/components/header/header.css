@@ -6,9 +6,12 @@
     background-color: white;
 }
 .logo-title{
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    height: 44px;
+    width: 124px;
+    background-image: url('../../assets/Vector.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
 }
 .options{
     width: 50%;
@@ -24,6 +27,60 @@
     font-weight: 600;
     font-style: normal;
     font-family: 'Open Sans';
-    color: #fecb16;
     padding: 10px 15px;
+}
+.mobile-nav{
+    display: none;
+}
+.nav-toggle-bar{
+    margin: 20px;
+    width: 30px;
+    height: 27px;
+    cursor: pointer;
+}
+.nav-toggle-bar span{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #1b1b1b;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+@media screen and (max-width: 1024px){
+    .mobile-nav{
+        display: block;
+    }
+    .options{
+        display: none;
+    }
+    .nav-toggle-bar{
+        position: relative;
+    }
+    .options-mobile-nav{
+        position: absolute;
+        width: 100%;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        background-color: white;
+        top: 70px;
+        right: 0px;
+        z-index: 5;
+    }
+    .top-option{
+        border-top: none;
+    }
+    .options-mobile-nav .option{
+        border-top: 1px solid black;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .options-mobile-nav .option:hover{
+        background-color: #fece1b;
+        color: #fff;
+    }
+    
+    
 }

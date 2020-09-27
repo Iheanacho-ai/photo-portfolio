@@ -8,7 +8,7 @@ const CollectionItem = ({title, price, text, size}) => (
         <h2>{`N ${price}`}</h2>
         <p className='first-name'>{text}</p>
         <p className='second-name'>{text}</p>
-        <button>BOOK NOW</button>
+        <button className='book-now'>BOOK NOW</button>
     </div>
 )
 

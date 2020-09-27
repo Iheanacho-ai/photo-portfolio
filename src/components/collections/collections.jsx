@@ -40,7 +40,7 @@ class Collection extends React.Component{
         return(
             <div className='collections'>
                 <h2 className='collection-title'>COLLECTIONS</h2>
-                <hr/>
+                <hr className='yellow-hr'/>
 
                 <div className="collections-div">
                     {

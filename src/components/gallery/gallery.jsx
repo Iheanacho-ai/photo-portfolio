@@ -1,6 +1,12 @@
 import React from 'react';
-import GalleryItems from '../gallery-items/gallery-items';
+import Photographer from '../../assets/photographer.jpg';
+import Potrait from '../../assets/potrait.jpg';
+import Salad from '../../assets/salad.jpg';
+import Swag from '../../assets/swag.jpg';
+import Wedding from '../../assets/wedding.jpg';
+import Clothes from '../../assets/fashion-clothes.jpg';
 
+import GalleryItems from '../gallery-items/gallery-items';
 import './gallery.css';
 
 class Gallery extends React.Component{
@@ -10,20 +16,29 @@ class Gallery extends React.Component{
         this.state = {
            gallerySections: [
                {
-                imageUrl: '../../assets/First.png',
+                imageUrl: Photographer,
                 id:4
               },
               {
-                imageUrl: '../../assets/First.png',
+                imageUrl: Potrait,
                 id:5
               },
+              
               {
-                imageUrl: '../../assets/First.png',
+                imageUrl: Salad,
                 id:6
               },
               {
-                imageUrl: '../../assets/First.png',
+                imageUrl: Swag,
                 id:7
+              },
+              {
+                imageUrl: Wedding,
+                id:8
+              },
+              {
+                imageUrl: Clothes,
+                id:9
               },
            ]
         }
@@ -34,6 +49,7 @@ class Gallery extends React.Component{
         return(
             <div className="gallery">
                 <h2>Gallery</h2>
+                <hr className='yellow-hr'/>
                 <div className="gallery-items">
                     {
                         this.state.gallerySections.map(({id, imageUrl}) => (

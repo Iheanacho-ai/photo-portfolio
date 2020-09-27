@@ -1,1 +1,7 @@
-
+.yellow-hr{
+    width: 65px;
+    height: 0;
+    border: 2px solid #fecb16;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}

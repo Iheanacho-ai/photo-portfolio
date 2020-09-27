@@ -1,7 +1,3 @@
-.collections{
-    /* margin-top: 1px; */
-    /* border: 1px solid red; */
-}
 .collections-div{
     padding-top: 50px;
     display: flex;
@@ -27,7 +23,7 @@
 
 @media screen and (max-width: 700px){
     .collections{
-        padding-top: 1000px;
+        padding-top: 650px;
     }
     .collections-div{
         width: 50vw;
